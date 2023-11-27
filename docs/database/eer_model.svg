@@ -1,0 +1,1368 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1462" height="1034">
+    <rect width="1462" height="1034" rx="0" ry="0" style="fill:#fff"/>
+    <rect width="557" height="463" x="19.5" y="548.5" rx="0" ry="0" style="fill:#d3d3d3;stroke:#868686;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="65" transform="translate(25 530)">
+   Companies
+</text>
+    <rect width="614" height="482" x="19.5" y="28.5" rx="0" ry="0" style="fill:#d3d3d3;stroke:#868686;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="102" transform="translate(25 10)">
+   Stores and prices
+</text>
+    <rect width="765" height="794" x="671.5" y="94.5" rx="0" ry="0" style="fill:#d3d3d3;stroke:#868686;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="167" transform="translate(677 76)">
+   Article, variants and features
+</text>
+    <rect width="136" height="45" x="227.5" y="877.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="227.5" y="876.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="226.5" y="876.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <rect width="136" height="45" x="226.5" y="875.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="a">
+        <rect width="137" height="46" x="225" y="875" rx="0" ry="0" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#a)">
+        <linearGradient id="b" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#98FB98"/>
+        </linearGradient>
+        <path d="M225 875h136v45H225z" style="fill:url(#b)"/>
+    </g>
+    <rect width="136" height="45" x="225.5" y="875.5" rx="0" ry="0" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="55" transform="translate(266 890)">
+   Company
+</text>
+    <rect width="136" height="45" x="227.5" y="216.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="227.5" y="215.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="226.5" y="215.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <rect width="136" height="45" x="226.5" y="214.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="c">
+        <rect width="137" height="46" x="225" y="214" rx="0" ry="0" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#c)">
+        <linearGradient id="d" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#98FB98"/>
+        </linearGradient>
+        <path d="M225 214h136v45H225z" style="fill:url(#d)"/>
+    </g>
+    <rect width="136" height="45" x="225.5" y="214.5" rx="0" ry="0" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="31" transform="translate(277 228)">
+   Store
+</text>
+    <rect width="136" height="46" x="1077.5" y="565.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="46" x="1077.5" y="564.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="46" x="1076.5" y="564.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <rect width="136" height="46" x="1076.5" y="563.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="e">
+        <rect width="137" height="47" x="1075" y="563" rx="0" ry="0" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#e)">
+        <linearGradient id="f" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#98FB98"/>
+        </linearGradient>
+        <path d="M1075 563h136v46h-136z" style="fill:url(#f)"/>
+    </g>
+    <rect width="136" height="46" x="1075.5" y="563.5" rx="0" ry="0" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="34" transform="translate(1127 578)">
+   Brand
+</text>
+    <rect width="136" height="45" x="1077.5" y="764.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="1077.5" y="763.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="1076.5" y="763.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <rect width="136" height="45" x="1076.5" y="762.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="g">
+        <rect width="137" height="46" x="1075" y="762" rx="0" ry="0" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#g)">
+        <linearGradient id="h" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#98FB98"/>
+        </linearGradient>
+        <path d="M1075 762h136v45h-136z" style="fill:url(#h)"/>
+    </g>
+    <rect width="136" height="45" x="1075.5" y="762.5" rx="0" ry="0" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="52" transform="translate(1118 776)">
+   Category
+</text>
+    <rect width="136" height="46" x="709.5" y="423.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="46" x="709.5" y="422.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="46" x="708.5" y="422.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <rect width="136" height="46" x="708.5" y="421.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="i">
+        <rect width="137" height="47" x="707" y="421" rx="0" ry="0" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#i)">
+        <linearGradient id="j" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#98FB98"/>
+        </linearGradient>
+        <path d="M707 421h136v46H707z" style="fill:url(#j)"/>
+    </g>
+    <rect width="136" height="46" x="707.5" y="421.5" rx="0" ry="0" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="37" transform="translate(757 436)">
+   Article
+</text>
+    <ellipse cx="106.5" cy="843.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="842.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="842.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="841.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="k">
+        <ellipse cx="104" cy="842" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#k)">
+        <linearGradient id="l" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 818h136v46H36z" style="fill:url(#l)"/>
+    </g>
+    <ellipse cx="104.5" cy="841.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;font-weight:700;text-decoration:underline;fill:#000;stroke:none" textLength="76" transform="translate(66 845)">
+   company_id
+</text>
+    <ellipse cx="106.5" cy="900.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="899.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="899.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="898.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="m">
+        <ellipse cx="104" cy="899" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#m)">
+        <linearGradient id="n" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 875h136v45H36z" style="fill:url(#n)"/>
+    </g>
+    <ellipse cx="104.5" cy="898.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="32" transform="translate(88 890)">
+   name
+</text>
+    <ellipse cx="106.5" cy="182.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="181.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="181.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="180.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="o">
+        <ellipse cx="104" cy="181" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#o)">
+        <linearGradient id="p" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 157h136v45H36z" style="fill:url(#p)"/>
+    </g>
+    <ellipse cx="104.5" cy="180.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;font-weight:700;text-decoration:underline;fill:#000;stroke:none" textLength="50" transform="translate(79 184)">
+   store_id
+</text>
+    <ellipse cx="106.5" cy="295.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="294.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="294.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="293.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="q">
+        <ellipse cx="104" cy="294" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#q)">
+        <linearGradient id="r" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 270h136v46H36z" style="fill:url(#r)"/>
+    </g>
+    <ellipse cx="104.5" cy="293.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="43" transform="translate(83 285)">
+   country
+</text>
+    <path d="m427 922 61 34-61 34-60-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m427 921 61 34-61 34-60-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m426 921 61 34-61 34-60-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m426 920 61 34-61 34-60-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="s">
+        <path d="m425 920 61 34-61 34-60-34z" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#s)">
+        <linearGradient id="t" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#FFDB58"/>
+        </linearGradient>
+        <path d="M365 920h121v68H365z" style="fill:url(#t)"/>
+    </g>
+    <path d="m425 920 61 34-61 34-60-34z" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="30" transform="translate(410 946)">
+   owns
+</text>
+    <ellipse cx="1344.5" cy="730.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1344.5" cy="729.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="729.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="728.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="u">
+        <ellipse cx="1342" cy="729" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#u)">
+        <linearGradient id="v" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M1274 705h136v45h-136z" style="fill:url(#v)"/>
+    </g>
+    <ellipse cx="1342.5" cy="728.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;font-weight:700;text-decoration:underline;fill:#000;stroke:none" textLength="72" transform="translate(1306 732)">
+   category_id
+</text>
+    <ellipse cx="1344.5" cy="786.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1344.5" cy="785.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="785.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="784.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="w">
+        <ellipse cx="1342" cy="785" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#w)">
+        <linearGradient id="x" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M1274 762h136v45h-136z" style="fill:url(#x)"/>
+    </g>
+    <ellipse cx="1342.5" cy="784.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="32" transform="translate(1326 776)">
+   name
+</text>
+    <ellipse cx="446.5" cy="408.5" rx="68" ry="23.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="446.5" cy="407.5" rx="68" ry="23.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="407.5" rx="68" ry="23.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="406.5" rx="68" ry="23.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="y">
+        <ellipse cx="444" cy="407" rx="68.5" ry="24" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#y)">
+        <linearGradient id="z" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M376 382h136v48H376z" style="fill:url(#z)"/>
+    </g>
+    <ellipse cx="444.5" cy="406.5" rx="68" ry="23.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="85" transform="translate(402 398)">
+   price_currency
+</text>
+    <ellipse cx="446.5" cy="465.5" rx="68" ry="23.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="446.5" cy="464.5" rx="68" ry="23.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="464.5" rx="68" ry="23.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="463.5" rx="68" ry="23.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="A">
+        <ellipse cx="444" cy="464" rx="68.5" ry="24" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#A)">
+        <linearGradient id="B" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M376 439h136v48H376z" style="fill:url(#B)"/>
+    </g>
+    <ellipse cx="444.5" cy="463.5" rx="68" ry="23.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="66" transform="translate(411 455)">
+   price_value
+</text>
+    <ellipse cx="446.5" cy="352.5" rx="68" ry="23.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="446.5" cy="351.5" rx="68" ry="23.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="351.5" rx="68" ry="23.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="350.5" rx="68" ry="23.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="C">
+        <ellipse cx="444" cy="351" rx="68.5" ry="24" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#C)">
+        <linearGradient id="D" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M376 326h136v47H376z" style="fill:url(#D)"/>
+    </g>
+    <ellipse cx="444.5" cy="350.5" rx="68" ry="23.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;font-weight:700;text-decoration:underline;fill:#000;stroke:none" textLength="100" transform="translate(394 354)">
+   price_date_from
+</text>
+    <path d="m947 752 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m947 751 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m946 751 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m946 750 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="E">
+        <path d="m945 750 60 34-60 34-61-34z" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#E)">
+        <linearGradient id="F" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#FFDB58"/>
+        </linearGradient>
+        <path d="M884 750h121v68H884z" style="fill:url(#F)"/>
+    </g>
+    <path d="m945 750 60 34-60 34-61-34z" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="37" transform="translate(927 776)">
+   part of
+</text>
+    <path d="M1013 786h59" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1013.5" cy="786.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1013 785h59" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1013.5" cy="785.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1012 785h59" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1012.5" cy="785.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1012 784h59" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1012.5" cy="784.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1011 784h59" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="1011.5" cy="784.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="7" transform="translate(1062 766)">
+   1
+</text>
+    <path d="m947 554 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m947 553 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m946 553 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m946 552 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="G">
+        <path d="m945 552 60 34-60 34-61-34z" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#G)">
+        <linearGradient id="H" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#FFDB58"/>
+        </linearGradient>
+        <path d="M884 552h121v68H884z" style="fill:url(#H)"/>
+    </g>
+    <path d="m945 552 60 34-60 34-61-34z" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="46" transform="translate(922 570)">
+   branded
+</text>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="23" transform="translate(934 586)">
+   with
+</text>
+    <path d="M1013 588h59" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1013.5" cy="588.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1013 587h59" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1013.5" cy="587.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1012 587h59" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1012.5" cy="587.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1012 586h59" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1012.5" cy="586.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1011 586h59" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="1011.5" cy="586.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="7" transform="translate(1062 568)">
+   1
+</text>
+    <ellipse cx="1344.5" cy="559.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1344.5" cy="558.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="558.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="557.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="I">
+        <ellipse cx="1342" cy="558" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#I)">
+        <linearGradient id="J" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M1274 535h136v45h-136z" style="fill:url(#J)"/>
+    </g>
+    <ellipse cx="1342.5" cy="557.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;font-weight:700;text-decoration:underline;fill:#000;stroke:none" textLength="55" transform="translate(1315 562)">
+   brand_id
+</text>
+    <ellipse cx="1344.5" cy="616.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1344.5" cy="615.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="615.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="614.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="K">
+        <ellipse cx="1342" cy="615" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#K)">
+        <linearGradient id="L" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M1274 591h136v46h-136z" style="fill:url(#L)"/>
+    </g>
+    <ellipse cx="1342.5" cy="614.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="32" transform="translate(1326 606)">
+   name
+</text>
+    <ellipse cx="975.5" cy="389.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="975.5" cy="388.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="388.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="387.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="M">
+        <ellipse cx="973" cy="388" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#M)">
+        <linearGradient id="N" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M905 365h136v45H905z" style="fill:url(#N)"/>
+    </g>
+    <ellipse cx="973.5" cy="387.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;font-weight:700;text-decoration:underline;fill:#000;stroke:none" textLength="57" transform="translate(945 391)">
+   article_id
+</text>
+    <ellipse cx="975.5" cy="446.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="975.5" cy="445.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="445.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="444.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="O">
+        <ellipse cx="973" cy="445" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#O)">
+        <linearGradient id="P" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M905 421h136v46H905z" style="fill:url(#P)"/>
+    </g>
+    <ellipse cx="973.5" cy="444.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="32" transform="translate(957 436)">
+   name
+</text>
+    <ellipse cx="975.5" cy="503.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="975.5" cy="502.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="502.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="501.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="Q">
+        <ellipse cx="973" cy="502" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#Q)">
+        <linearGradient id="R" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M905 478h136v45H905z" style="fill:url(#R)"/>
+    </g>
+    <ellipse cx="973.5" cy="501.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="63" transform="translate(942 493)">
+   description
+</text>
+    <rect width="136" height="45" x="709.5" y="206.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="709.5" y="205.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="708.5" y="205.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <rect width="136" height="45" x="708.5" y="204.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <rect width="136" height="45" x="707.5" y="204.5" rx="0" ry="0" style="fill:#fff;stroke:#000;stroke-width:1px"/>
+    <clipPath id="S">
+        <rect width="129" height="39" x="711" y="208" rx="0" ry="0" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#S)">
+        <linearGradient id="T" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#98FB98"/>
+        </linearGradient>
+        <path d="M707 204h136v45H707z" style="fill:url(#T)"/>
+    </g>
+    <rect width="128" height="38" x="711.5" y="208.5" rx="0" ry="0" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="78" transform="translate(736 219)">
+   ArticleVariant
+</text>
+    <ellipse cx="975.5" cy="200.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="975.5" cy="199.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="199.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="198.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="U">
+        <ellipse cx="973" cy="199" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#U)">
+        <linearGradient id="V" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M905 176h136v45H905z" style="fill:url(#V)"/>
+    </g>
+    <ellipse cx="973.5" cy="198.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="21" transform="translate(963 190)">
+   unit
+</text>
+    <ellipse cx="106.5" cy="238.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="237.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="237.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="236.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="104.5" cy="236.5" rx="68" ry="22.5" style="fill:#fff;stroke:#000;stroke-width:1px"/>
+    <clipPath id="W">
+        <ellipse cx="104" cy="237" rx="64.5" ry="19" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#W)">
+        <linearGradient id="X" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 214h136v45H36z" style="fill:url(#X)"/>
+    </g>
+    <ellipse cx="104.5" cy="236.5" rx="64" ry="18.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="46" transform="translate(81 228)">
+   address
+</text>
+    <path d="M295 928v28h66" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="928.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M295 927v28h66" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="927.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M294 927v28h66" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="927.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M294 926v28h66" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="926.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M293 926v28h66" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="293.5" cy="926.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="7" transform="translate(297 936)">
+   1
+</text>
+    <path d="M427 917v-17h-58" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="427.5" cy="917.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M427 916v-17h-58" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="427.5" cy="916.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M426 916v-17h-58" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="426.5" cy="916.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M426 915v-17h-58" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="426.5" cy="915.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M425 915v-17h-58" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="425.5" cy="915.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="11" transform="translate(379 879)">
+   m
+</text>
+    <rect width="136" height="45" x="227.5" y="575.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="227.5" y="574.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="226.5" y="574.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <rect width="136" height="45" x="226.5" y="573.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="Y">
+        <rect width="137" height="46" x="225" y="573" rx="0" ry="0" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#Y)">
+        <linearGradient id="Z" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#98FB98"/>
+        </linearGradient>
+        <path d="M225 573h136v45H225z" style="fill:url(#Z)"/>
+    </g>
+    <rect width="136" height="45" x="225.5" y="573.5" rx="0" ry="0" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="44" transform="translate(271 587)">
+   Retailer
+</text>
+    <path d="m295 384 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m295 383 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m294 383 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m294 382 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="aa">
+        <path d="m293 382 60 34-60 34-61-34z" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#aa)">
+        <linearGradient id="ab" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#FFDB58"/>
+        </linearGradient>
+        <path d="M232 382h121v68H232z" style="fill:url(#ab)"/>
+    </g>
+    <path d="m293 382 60 34-60 34-61-34z" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="25" transform="translate(280 408)">
+   runs
+</text>
+    <path d="M295 569V457" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="569.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M295 568V456" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="568.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M294 568V456" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="568.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M294 567V455" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="567.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M293 567V455" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="293.5" cy="567.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="7" transform="translate(297 549)">
+   1
+</text>
+    <path d="M295 378V267" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="378.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M295 377V266" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="377.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M294 377V266" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="377.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M294 376V265" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="376.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M293 376V265" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="293.5" cy="376.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="11" transform="translate(297 266)">
+   m
+</text>
+    <path d="m295 658 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m295 657 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m294 657 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m294 656 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="ac">
+        <path d="m293 656 60 34-60 34-61-34z" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#ac)">
+        <linearGradient id="ad" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#FFDB58"/>
+        </linearGradient>
+        <path d="M232 656h121v68H232z" style="fill:url(#ad)"/>
+    </g>
+    <path d="m293 656 60 34-60 34-61-34z" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="26" transform="translate(280 682)">
+   IS-A
+</text>
+    <rect width="136" height="45" x="406.5" y="669.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="406.5" y="668.5" rx="0" ry="0" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <rect width="136" height="45" x="405.5" y="668.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <rect width="136" height="45" x="405.5" y="667.5" rx="0" ry="0" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="ae">
+        <rect width="137" height="46" x="404" y="667" rx="0" ry="0" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#ae)">
+        <linearGradient id="af" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#98FB98"/>
+        </linearGradient>
+        <path d="M404 667h136v45H404z" style="fill:url(#af)"/>
+    </g>
+    <rect width="136" height="45" x="404.5" y="667.5" rx="0" ry="0" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="76" transform="translate(435 682)">
+   Manufacturer
+</text>
+    <path d="M401 692h-40" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="401.5" cy="692.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m372 696-11-4 11-4zm29-5h-40" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="401.5" cy="691.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m372 695-11-4 11-4z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M400 691h-40" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="400.5" cy="691.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m371 695-11-4 11-4zm29-5h-40" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="400.5" cy="690.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m371 694-11-4 11-4z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M399 690h-40" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="399.5" cy="690.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <path d="m370 694-11-4 11-4z" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <path d="M295 626v26" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="626.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m299 641-4 11-4-11zm-4-16v26" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="625.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m299 640-4 11-4-11z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M294 625v26" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="625.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m298 640-4 11-4-11zm-4-16v26" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="624.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m298 639-4 11-4-11z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M293 624v26" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="293.5" cy="624.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <path d="m297 639-4 11-4-11z" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <path d="M295 731v140" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="731.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m299 860-4 11-4-11zm-4-130v140" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="295.5" cy="730.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m299 859-4 11-4-11z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M294 730v140" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="730.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m298 859-4 11-4-11zm-4-130v140" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="294.5" cy="729.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m298 858-4 11-4-11z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M293 729v140" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="293.5" cy="729.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <path d="m297 858-4 11-4-11z" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <path d="m1145 658 61 34-61 34-60-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m1145 657 61 34-61 34-60-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m1144 657 61 34-61 34-60-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m1144 656 61 34-61 34-60-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="ag">
+        <path d="m1143 656 61 34-61 34-60-34z" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#ag)">
+        <linearGradient id="ah" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#FFDB58"/>
+        </linearGradient>
+        <path d="M1083 656h121v68h-121z" style="fill:url(#ah)"/>
+    </g>
+    <path d="m1143 656 61 34-61 34-60-34z" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="55" transform="translate(1116 682)">
+   owned by
+</text>
+    <path d="M1145 616v36" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1145.5" cy="616.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1145 615v36" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1145.5" cy="615.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1144 615v36" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1144.5" cy="615.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1144 614v36" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1144.5" cy="614.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1143 614v36" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="1143.5" cy="614.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="11" transform="translate(1147 617)">
+   m
+</text>
+    <path d="M1079 692H548" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1079.5" cy="692.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1079 691H548" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1079.5" cy="691.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1078 691H547" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1078.5" cy="691.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1078 690H547" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1078.5" cy="690.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1077 690H546" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="1077.5" cy="690.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="7" transform="translate(550 672)">
+   1
+</text>
+    <ellipse cx="975.5" cy="257.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="975.5" cy="256.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="256.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="255.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="ai">
+        <ellipse cx="973" cy="256" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#ai)">
+        <linearGradient id="aj" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M905 232h136v46H905z" style="fill:url(#aj)"/>
+    </g>
+    <ellipse cx="973.5" cy="255.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="46" transform="translate(951 247)">
+   quantity
+</text>
+    <path d="m777 299 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m777 302 53 31-53 30-53-30z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m777 298 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m777 301 53 31-53 30-53-30z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m776 298 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m776 301 53 31-53 30-53-30z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m776 297 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m776 300 53 31-53 30-53-30z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m775 297 60 34-60 34-61-34z" style="fill:#fff;stroke:#000;stroke-width:1px"/>
+    <clipPath id="ak">
+        <path d="m775 300 53 31-53 30-53-30z" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#ak)">
+        <linearGradient id="al" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#FFDB58"/>
+        </linearGradient>
+        <path d="M714 297h121v68H714z" style="fill:url(#al)"/>
+    </g>
+    <path d="m775 300 53 31-53 30-53-30z" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="21" transform="translate(765 323)">
+   has
+</text>
+    <path d="M777 418v-46" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="777.5" cy="418.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M777 417v-46" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="777.5" cy="417.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M776 417v-46" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="776.5" cy="417.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M776 416v-46" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="776.5" cy="416.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M775 416v-46" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="775.5" cy="416.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="7" transform="translate(779 398)">
+   1
+</text>
+    <path d="M777 293v-36" style="fill:none;stroke:#dbdbdb;stroke-width:3px"/>
+    <path d="M777 293v-36" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="777.5" cy="293.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M777 292v-36" style="fill:none;stroke:#dbdbdb;stroke-width:3px"/>
+    <path d="M777 292v-36" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="777.5" cy="292.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M776 292v-36" style="fill:none;stroke:#a9a9a9;stroke-width:3px"/>
+    <path d="M776 292v-36" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="776.5" cy="292.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M776 291v-36" style="fill:none;stroke:#a9a9a9;stroke-width:3px"/>
+    <path d="M776 291v-36" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="776.5" cy="291.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M775 291v-36" style="fill:none;stroke:#000;stroke-width:3px"/>
+    <path d="M775 291v-36" style="fill:none;stroke:#fff;stroke-width:1px"/>
+    <circle cx="775.5" cy="291.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="11" transform="translate(779 254)">
+   m
+</text>
+    <path d="m541 251 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m541 250 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m540 250 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m540 249 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="am">
+        <path d="m539 249 60 34-60 34-61-34z" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#am)">
+        <linearGradient id="an" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#FFDB58"/>
+        </linearGradient>
+        <path d="M478 249h121v68H478z" style="fill:url(#an)"/>
+    </g>
+    <path d="m539 249 60 34-60 34-61-34z" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="49" transform="translate(514 267)">
+   changes
+</text>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="47" transform="translate(515 283)">
+   price for
+</text>
+    <path d="m369 253 105 20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="369.5" cy="253.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m369 252 105 20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="369.5" cy="252.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m368 252 105 20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="368.5" cy="252.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m368 251 105 20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="368.5" cy="251.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m367 251 105 20" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="367.5" cy="251.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="11" transform="translate(370 232)">
+   m
+</text>
+    <path d="m607 270 96-23" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="607.5" cy="270.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m607 269 96-23" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="607.5" cy="269.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m606 269 96-23" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="606.5" cy="269.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m606 268 96-23" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="606.5" cy="268.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m605 268 96-23" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="605.5" cy="268.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="11" transform="translate(688 231)">
+   m
+</text>
+    <path d="M541 325v83h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="325.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M541 324v83h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="324.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M540 324v83h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="324.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M540 323v83h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="323.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M539 323v83h-21" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="539.5" cy="323.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M541 325v140h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="325.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M541 324v140h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="324.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M540 324v140h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="324.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M540 323v140h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="323.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M539 323v140h-21" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="539.5" cy="323.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M541 325v27h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="325.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M541 324v27h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="324.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M540 324v27h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="324.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M540 323v27h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="323.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M539 323v27h-21" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="539.5" cy="323.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <ellipse cx="1344.5" cy="843.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1344.5" cy="842.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="842.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="1343.5" cy="841.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="ao">
+        <ellipse cx="1342" cy="842" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#ao)">
+        <linearGradient id="ap" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M1274 818h136v46h-136z" style="fill:url(#ap)"/>
+    </g>
+    <ellipse cx="1342.5" cy="841.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="63" transform="translate(1310 833)">
+   description
+</text>
+    <path d="m541 157 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m541 156 60 34-60 34-61-34z" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m540 156 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m540 155 60 34-60 34-61-34z" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="aq">
+        <path d="m539 155 60 34-60 34-61-34z" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#aq)">
+        <linearGradient id="ar" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#FFDB58"/>
+        </linearGradient>
+        <path d="M478 155h121v68H478z" style="fill:url(#ar)"/>
+    </g>
+    <path d="m539 155 60 34-60 34-61-34z" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="27" transform="translate(525 181)">
+   sells
+</text>
+    <path d="m369 224 105-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="369.5" cy="224.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m369 223 105-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="369.5" cy="223.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m368 223 105-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="368.5" cy="223.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m368 222 105-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="368.5" cy="222.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m367 222 105-20" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="367.5" cy="222.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="11" transform="translate(370 204)">
+   m
+</text>
+    <path d="m607 202 96 15" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="607.5" cy="202.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m607 201 96 15" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="607.5" cy="201.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="m606 201 96 15" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="606.5" cy="201.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m606 200 96 15" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="606.5" cy="200.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="m605 200 96 15" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="605.5" cy="200.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="7" transform="translate(692 195)">
+   1
+</text>
+    <ellipse cx="446.5" cy="68.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-dasharray:5 3;stroke-width:1px"/>
+    <ellipse cx="446.5" cy="67.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-dasharray:5 3;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="67.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-dasharray:5 3;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="66.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-dasharray:5 3;stroke-width:1px"/>
+    <clipPath id="as">
+        <ellipse cx="444" cy="67" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#as)">
+        <linearGradient id="at" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M376 43h136v46H376z" style="fill:url(#at)"/>
+    </g>
+    <ellipse cx="444.5" cy="66.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-dasharray:5 3;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="132" transform="translate(378 58)">
+   current_price_currency
+</text>
+    <ellipse cx="446.5" cy="125.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-dasharray:5 3;stroke-width:1px"/>
+    <ellipse cx="446.5" cy="124.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-dasharray:5 3;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="124.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-dasharray:5 3;stroke-width:1px"/>
+    <ellipse cx="445.5" cy="123.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-dasharray:5 3;stroke-width:1px"/>
+    <clipPath id="au">
+        <ellipse cx="444" cy="124" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#au)">
+        <linearGradient id="av" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M376 100h136v46H376z" style="fill:url(#av)"/>
+    </g>
+    <ellipse cx="444.5" cy="123.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-dasharray:5 3;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="113" transform="translate(388 115)">
+   current_price_value
+</text>
+    <path d="M541 151v-26h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="151.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M541 150v-26h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="150.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M540 150v-26h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="150.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M540 149v-26h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="149.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M539 149v-26h-21" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="539.5" cy="149.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M541 151V68h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="151.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M541 150V67h-21" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="541.5" cy="150.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M540 150V67h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="150.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M540 149V66h-21" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="540.5" cy="149.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M539 149V66h-21" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="539.5" cy="149.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <ellipse cx="975.5" cy="144.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="975.5" cy="143.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="143.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="142.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="aw">
+        <ellipse cx="973" cy="143" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#aw)">
+        <linearGradient id="ax" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M905 119h136v45H905z" style="fill:url(#ax)"/>
+    </g>
+    <ellipse cx="973.5" cy="142.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;font-weight:700;text-decoration:underline;fill:#000;stroke:none" textLength="61" transform="translate(943 146)">
+   variant_id
+</text>
+    <ellipse cx="106.5" cy="597.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="596.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="596.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="595.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="ay">
+        <ellipse cx="104" cy="596" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#ay)">
+        <linearGradient id="az" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 573h136v45H36z" style="fill:url(#az)"/>
+    </g>
+    <ellipse cx="104.5" cy="595.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="79" transform="translate(65 587)">
+   market_share
+</text>
+    <path d="M221 597h-41" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="597.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 596h-41" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="596.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 596h-41" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="596.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 595h-41" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="595.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 595h-41" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="595.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M221 238h-21v-56h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="238.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 237h-21v-56h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="237.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 237h-21v-56h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="237.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 236h-21v-56h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="236.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 236h-21v-56h-20" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="236.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M221 238h-41" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="238.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 237h-41" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="237.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 237h-41" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="237.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 236h-41" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="236.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 236h-41" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="236.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M221 238h-21v57h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="238.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 237h-21v57h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="237.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 237h-21v57h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="237.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 236h-21v57h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="236.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 236h-21v57h-20" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="236.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M851 446h51" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="446.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M851 445h51" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="445.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M850 445h51" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="445.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M850 444h51" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="444.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M849 444h51" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="849.5" cy="444.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M851 446h20v-57h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="446.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M851 445h20v-57h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="445.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M850 445h20v-57h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="445.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M850 444h20v-57h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="444.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M849 444h20v-57h31" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="849.5" cy="444.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M851 446h20v57h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="446.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M851 445h20v57h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="445.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M850 445h20v57h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="445.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M850 444h20v57h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="444.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M849 444h20v57h31" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="849.5" cy="444.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M1219 588h21v-29h30" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="588.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1219 587h21v-29h30" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="587.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1218 587h21v-29h30" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="587.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1218 586h21v-29h30" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="586.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1217 586h21v-29h30" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="1217.5" cy="586.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M1219 588h21v28h30" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="588.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1219 587h21v28h30" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="587.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1218 587h21v28h30" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="587.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1218 586h21v28h30" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="586.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1217 586h21v28h30" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="1217.5" cy="586.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M1219 786h21v-56h30" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="786.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1219 785h21v-56h30" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="785.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1218 785h21v-56h30" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="785.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1218 784h21v-56h30" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="784.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1217 784h21v-56h30" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="1217.5" cy="784.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M1219 786h51" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="786.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1219 785h51" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="785.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1218 785h51" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="785.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1218 784h51" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="784.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1217 784h51" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="1217.5" cy="784.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M1219 786h21v57h30" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="786.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1219 785h21v57h30" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="1219.5" cy="785.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M1218 785h21v57h30" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="785.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1218 784h21v57h30" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="1218.5" cy="784.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M1217 784h21v57h30" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="1217.5" cy="784.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="956.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="955.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="955.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="954.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="104.5" cy="954.5" rx="68" ry="22.5" style="fill:#fff;stroke:#000;stroke-width:1px"/>
+    <clipPath id="aA">
+        <ellipse cx="104" cy="955" rx="64.5" ry="19" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#aA)">
+        <linearGradient id="aB" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 932h136v45H36z" style="fill:url(#aB)"/>
+    </g>
+    <ellipse cx="104.5" cy="954.5" rx="64" ry="18.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="45" transform="translate(82 946)">
+   location
+</text>
+    <ellipse cx="106.5" cy="654.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="653.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="653.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="652.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="aC">
+        <ellipse cx="104" cy="653" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#aC)">
+        <linearGradient id="aD" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 629h136v46H36z" style="fill:url(#aD)"/>
+    </g>
+    <ellipse cx="104.5" cy="652.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="91" transform="translate(59 644)">
+   annual_revenue
+</text>
+    <ellipse cx="106.5" cy="711.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="710.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="710.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="709.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="aE">
+        <ellipse cx="104" cy="710" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#aE)">
+        <linearGradient id="aF" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 686h136v45H36z" style="fill:url(#aF)"/>
+    </g>
+    <ellipse cx="104.5" cy="709.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="75" transform="translate(67 701)">
+   profit_margin
+</text>
+    <ellipse cx="106.5" cy="767.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="106.5" cy="766.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="766.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="105.5" cy="765.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="aG">
+        <ellipse cx="104" cy="766" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#aG)">
+        <linearGradient id="aH" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M36 743h136v45H36z" style="fill:url(#aH)"/>
+    </g>
+    <ellipse cx="104.5" cy="765.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="101" transform="translate(54 757)">
+   working_currency
+</text>
+    <path d="M221 597h-21v57h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="597.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 596h-21v57h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="596.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 596h-21v57h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="596.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 595h-21v57h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="595.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 595h-21v57h-20" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="595.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M221 597h-21v114h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="597.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 596h-21v114h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="596.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 596h-21v114h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="596.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 595h-21v114h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="595.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 595h-21v114h-20" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="595.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M221 597h-21v170h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="597.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 596h-21v170h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="596.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 596h-21v170h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="596.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 595h-21v170h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="595.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 595h-21v170h-20" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="595.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M221 900h-21v-57h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="900.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 899h-21v-57h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="899.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 899h-21v-57h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="899.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 898h-21v-57h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="898.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 898h-21v-57h-20" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="898.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M221 900h-41" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="900.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 899h-41" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="899.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 899h-41" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="899.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 898h-41" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="898.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 898h-41" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="898.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M221 900h-21v56h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="900.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M221 899h-21v56h-20" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="221.5" cy="899.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M220 899h-21v56h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="899.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M220 898h-21v56h-20" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="220.5" cy="898.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M219 898h-21v56h-20" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="219.5" cy="898.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <ellipse cx="474.5" cy="767.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="474.5" cy="766.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="473.5" cy="766.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="473.5" cy="765.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="aI">
+        <ellipse cx="472" cy="766" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#aI)">
+        <linearGradient id="aJ" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M404 743h136v45H404z" style="fill:url(#aJ)"/>
+    </g>
+    <ellipse cx="472.5" cy="765.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="70" transform="translate(438 757)">
+   product_line
+</text>
+    <path d="M474 720v19" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="474.5" cy="720.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M474 719v19" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="474.5" cy="719.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M473 719v19" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="473.5" cy="719.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M473 718v19" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="473.5" cy="718.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M472 718v19" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="472.5" cy="718.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <ellipse cx="975.5" cy="314.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="975.5" cy="313.5" rx="68" ry="22.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="313.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <ellipse cx="974.5" cy="312.5" rx="68" ry="22.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <clipPath id="aK">
+        <ellipse cx="973" cy="313" rx="68.5" ry="23" style="fill:none"/>
+    </clipPath>
+    <g clip-path="url(#aK)">
+        <linearGradient id="aL" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="5%" stop-color="#FFF"/>
+            <stop offset="95%" stop-color="#ADD8E6"/>
+        </linearGradient>
+        <path d="M905 289h136v45H905z" style="fill:url(#aL)"/>
+    </g>
+    <ellipse cx="973.5" cy="312.5" rx="68" ry="22.5" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="61" transform="translate(943 304)">
+   weightable
+</text>
+    <path d="M851 229h20v-85h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="229.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M851 228h20v-85h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="228.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M850 228h20v-85h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="228.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M850 227h20v-85h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="227.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M849 227h20v-85h31" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="849.5" cy="227.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M851 229h20v-29h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="229.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M851 228h20v-29h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="228.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M850 228h20v-29h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="228.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M850 227h20v-29h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="227.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M849 227h20v-29h31" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="849.5" cy="227.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M851 229h20v28h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="229.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M851 228h20v28h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="228.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M850 228h20v28h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="228.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M850 227h20v28h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="227.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M849 227h20v28h31" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="849.5" cy="227.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M851 229h20v85h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="229.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M851 228h20v85h31" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="851.5" cy="228.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M850 228h20v85h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="228.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M850 227h20v85h31" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="850.5" cy="227.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M849 227h20v85h31" style="fill:none;stroke:#4682b4;stroke-width:1px"/>
+    <circle cx="849.5" cy="227.5" r="1.5" style="fill:#4682b4;stroke:#4682b4;stroke-width:1px"/>
+    <path d="M777 474v212c3 0 5 3 5 6s-2 5-5 5v89h104" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="777.5" cy="474.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M777 473v212c3 0 5 3 5 6s-2 5-5 5v89h104" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="777.5" cy="473.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M776 473v212c3 0 5 3 5 6s-2 5-5 5v89h104" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="776.5" cy="473.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M776 472v212c3 0 5 3 5 6s-2 5-5 5v89h104" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="776.5" cy="472.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M775 472v212c3 0 5 3 5 6s-2 5-5 5v89h104" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="775.5" cy="472.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <path d="M777 474v114h104" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="777.5" cy="474.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M777 473v114h104" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <circle cx="777.5" cy="473.5" r="1.5" style="fill:none;stroke:#dbdbdb;stroke-width:1px"/>
+    <path d="M776 473v114h104" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="776.5" cy="473.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M776 472v114h104" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <circle cx="776.5" cy="472.5" r="1.5" style="fill:none;stroke:#a9a9a9;stroke-width:1px"/>
+    <path d="M775 472v114h104" style="fill:none;stroke:#000;stroke-width:1px"/>
+    <circle cx="775.5" cy="472.5" r="1.5" style="fill:#000;stroke:#000;stroke-width:1px"/>
+    <text style="font-family:Arial;font-size:13px;fill:#000;stroke:none;baseline-shift:-12px" textLength="11" transform="translate(779 474)">
+   m
+</text>
+</svg>

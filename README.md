@@ -1,4 +1,5 @@
-Antiflation
----
+# PriceVista
 
-This is a work-in-progress project to make prices between different supermarkets more transparent.
+> PriceVista is a platform designed to help users monitor and compare changes in article prices across different 
+> supermarkets. The focus is on transparency, aiming to provide users with insights into whether various supermarket
+> chains adjust prices for their store-branded products simultaneously.

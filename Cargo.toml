@@ -4,13 +4,22 @@ description = "Server for serving PriceVista applications"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "pricevista"
+path = "src/lib.rs"
+
+[[bin]]
+name = "server"
+path = "src/bin/server/main.rs"
 
 [dependencies]
 axum = "0.7.3"
 chrono = { version = "0.4.31", features = ["serde"] }
 clap = { version = "4.4.12", features = ["derive", "env"] }
 dotenvy = "0.15.7"
+lazy_static = "1.4.0"
+rust_decimal = "1.33.1"
+rust_decimal_macros = "1.33.1"
 serde = { version = "1.0.194", features = ["derive"] }
 serde_json = "1.0.110"
 sibyl = { version = "0.6.16", features = ["nonblocking", "tokio"] }

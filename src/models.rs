@@ -59,17 +59,22 @@ pub struct Language {
     pub name: String,
 }
 
-/// The [MeasurementUnit] entity describes a measurement unit that is used by
+/// The [ArticleUnit] entity describes a measurement unit that is used by
 /// stores to quantify their package and volume sizes.
 #[derive(Debug, Deserialize, Serialize)]
-pub struct MeasurementUnit {
+pub struct ArticleUnit {
     pub id: usize,
 
     /// Symbol of the measurement unit
-    pub symbol: String,
+    pub label: String,
 
-    /// English name of the measurement unit
-    pub name: String,
+    /// English singular name of the measurement unit
+    #[serde(rename = "singularName")]
+    pub singular_name: String,
+
+    /// English plural name of the article unit
+    #[serde(rename = "pluralName")]
+    pub plural_name: String,
 }
 
 /// The [Place] entity describes a location in the physical world.
@@ -182,7 +187,8 @@ pub struct Article {
     pub origin_country: Option<Country>,
 
     /// Measurement unit of the article
-    pub unit: MeasurementUnit,
+    #[serde(rename = "articleUnit")]
+    pub article_unit: ArticleUnit,
 
     /// Quantity of the article in the measurement unit
     pub quantity: Decimal,
@@ -229,7 +235,7 @@ pub struct Store {
     pub retailer: Retailer,
 
     /// Location of the store
-    pub location: Place,
+    pub place: Place,
 
     /// Currency of the store
     pub currency: Currency,
@@ -238,10 +244,10 @@ pub struct Store {
     pub language: Language,
 }
 
-/// The [StoreArticleMap] relation describes the mapping between the store's
+/// The [StoreArticle] relation describes the mapping between the store's
 //  internal article identifiers to the articles.
 #[derive(Debug, Deserialize, Serialize)]
-pub struct StoreArticleMap {
+pub struct StoreArticle {
     /// Store that holds the article
     pub store: Store,
 
@@ -253,14 +259,14 @@ pub struct StoreArticleMap {
     pub article: Article,
 
     /// Timestamp when the article was first discovered (e.g. API access time,
-    /// JSON import date, timestamp property in the API)
+    /// JSON parser date, timestamp property in the API)
     pub since: DateTime<Utc>,
 }
 
-/// The [StoreCategoryMap] relation describes the mapping between the store's
+/// The [StoreCategory] relation describes the mapping between the store's
 //  internal category identifiers to the categories.
 #[derive(Debug, Deserialize, Serialize)]
-pub struct StoreCategoryMap {
+pub struct StoreCategory {
     /// Store that has the category
     pub store: Store,
 

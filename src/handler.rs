@@ -1,6 +1,5 @@
 use crate::models::Brand;
 use crate::schema::FilterOptions;
-use crate::AppState;
 use axum::extract::{Query, State};
 use axum::http::StatusCode;
 use axum::response::IntoResponse;

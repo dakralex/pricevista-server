@@ -1,4 +1,4 @@
-use clap::{Args, Parser, Subcommand};
+use clap::{Parser, Subcommand};
 use pricevista::fetcher::{fetch_billa, fetch_spar, FetchSourceType};
 use pricevista::importer::ImportSourceType;
 

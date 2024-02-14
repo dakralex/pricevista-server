@@ -16,6 +16,6 @@ pub mod double_as_string {
         D: Deserializer<'de>,
     {
         let s: &str = Deserialize::deserialize(deserializer)?;
-        f64::from_str(&s).map_err(Error::custom)
+        f64::from_str(s).map_err(Error::custom)
     }
 }

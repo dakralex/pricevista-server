@@ -3,8 +3,8 @@ use crate::markets::spar::SparSearchResponse;
 use clap::ValueEnum;
 use reqwest::Client;
 
-const BILLA_API_URL: &'static str = "https://shop.billa.at/api/products/search/*?storeId=00-10";
-const SPAR_API_URL: &'static str = "https://search-spar.spar-ics.com/fact-finder/rest/v5/search/products_lmos_at?query=*&q=*&page=1&hitsPerPage=1000";
+const BILLA_API_URL: &str = "https://shop.billa.at/api/products/search/*?storeId=00-10";
+const SPAR_API_URL: &str = "https://search-spar.spar-ics.com/fact-finder/rest/v5/search/products_lmos_at?query=*&q=*&page=1&hitsPerPage=1000";
 
 #[derive(ValueEnum, Copy, Clone, PartialEq, Eq, Debug)]
 pub enum FetchSourceType {

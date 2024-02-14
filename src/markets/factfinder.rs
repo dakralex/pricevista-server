@@ -72,7 +72,7 @@ pub struct SearchResponse<T> {
 struct SearchRecord<T> {
     /// The list of words that caused this [SearchRecord] to be returned.
     #[serde(rename = "foundWords")]
-    found_words: String,
+    found_words: Vec<String>,
 
     /// The id of the [SearchRecord].
     id: String,
@@ -151,6 +151,7 @@ enum FacetFilterStyle {
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 enum FacetSelectionType {
+    SingleHideUnselected,
     SingleShowUnselected,
     MultiSelectOr,
     MultiSelectAnd,

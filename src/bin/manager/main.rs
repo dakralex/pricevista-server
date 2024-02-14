@@ -1,5 +1,5 @@
 use clap::{Args, Parser, Subcommand};
-use pricevista::fetcher::{fetch_billa, FetchSourceType};
+use pricevista::fetcher::{fetch_billa, fetch_spar, FetchSourceType};
 use pricevista::importer::ImportSourceType;
 
 #[tokio::main]
@@ -8,10 +8,18 @@ async fn main() {
     let args = ManagerCli::parse();
 
     match args.command {
-        Commands::Fetch(_) => {
-            let response = fetch_billa();
-
-            println!("{:?}", response.await.unwrap());
+        Commands::Fetch { source, .. } => {
+            match source {
+                FetchSourceType::Billa => {
+                    let response = fetch_billa();
+                    println!("{:?}", response.await.unwrap());
+                }
+                FetchSourceType::Spar => {
+                    let response = fetch_spar();
+                    println!("{:?}", response.await.unwrap());
+                }
+                _ => todo!("This fetch type has not been implemented yet."),
+            };
         }
         _ => todo!("This argument has not been implemented yet."),
     };
@@ -28,26 +36,17 @@ struct ManagerCli {
 #[derive(Subcommand)]
 enum Commands {
     /// Initialize the application
-    Init(InitArgs),
+    Init,
     /// Import data from various file formats
-    Import(ImportArgs),
+    Import {
+        #[arg(long, help = "Specify the source of the import file")]
+        source: ImportSourceType,
+        #[arg(required = true)]
+        files: Vec<std::path::PathBuf>,
+    },
     /// Update data through fetching API endpoints
-    Fetch(FetchArgs),
-}
-
-#[derive(Args)]
-struct InitArgs {}
-
-#[derive(Args)]
-struct ImportArgs {
-    #[arg(long, help = "Specify the source of the import file")]
-    source: ImportSourceType,
-    #[arg(required = true)]
-    files: Vec<std::path::PathBuf>,
-}
-
-#[derive(Args)]
-struct FetchArgs {
-    #[arg(long, help = "Specify the source to fetch from")]
-    source: FetchSourceType,
+    Fetch {
+        #[arg(long, help = "Specify the source to fetch from")]
+        source: FetchSourceType,
+    },
 }

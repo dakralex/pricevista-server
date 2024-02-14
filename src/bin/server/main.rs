@@ -53,6 +53,7 @@ lazy_static! {
 }
 
 pub struct AppState<'a> {
+    #[allow(unused)]
     db: SessionPool<'a>,
 }
 

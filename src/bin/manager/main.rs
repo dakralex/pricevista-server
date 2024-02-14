@@ -1,5 +1,5 @@
 use clap::{Parser, Subcommand};
-use pricevista::fetcher::{fetch_billa, fetch_spar, FetchSourceType};
+use pricevista::fetcher::{fetch_billa, fetch_mpreis, fetch_spar, FetchSourceType};
 use pricevista::importer::ImportSourceType;
 
 #[tokio::main]
@@ -12,6 +12,10 @@ async fn main() {
             match source {
                 FetchSourceType::Billa => {
                     let response = fetch_billa();
+                    println!("{:?}", response.await.unwrap());
+                }
+                FetchSourceType::Mpreis => {
+                    let response = fetch_mpreis();
                     println!("{:?}", response.await.unwrap());
                 }
                 FetchSourceType::Spar => {

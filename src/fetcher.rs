@@ -1,8 +1,12 @@
+use crate::parser;
+use clap::ValueEnum;
 use reqwest::Client;
 use serde::{Deserialize, Serialize};
 
+const BILLA_API_URL: &'static str = "https://shop.billa.at/api/products/search/*?storeId=00-10";
+
 #[derive(Debug, Serialize, Deserialize)]
-struct BillaSearchResponse {
+pub struct BillaSearchResponse {
     #[serde(rename = "queryId")]
     query_id: String,
     count: usize,
@@ -15,10 +19,10 @@ struct BillaSearchResponse {
 struct BillaSearchResult {
     #[serde(rename = "ageRequiredInMonths")]
     age_required_in_months: Option<u32>,
-    #[serde(with = parser::double_as_string)]
+    #[serde(with = "parser::double_as_string")]
     amount: f64,
     badges: Option<Vec<BillaBadge>>,
-    brand: BillaBrand,
+    brand: Option<BillaBrand>,
     category: Option<String>,
     #[serde(rename = "countryOfOrigin")]
     country_of_origin: Option<String>,
@@ -31,7 +35,7 @@ struct BillaSearchResult {
     #[serde(rename = "drainedWeight")]
     drained_weight: Option<f64>,
     images: Vec<String>,
-    mapped_category: String,
+    mapped_category: Option<String>,
     #[serde(rename = "maxQuantity")]
     max_quantity: Option<u32>,
     medical: bool,
@@ -79,11 +83,11 @@ struct BillaBrand {
 
 #[derive(Debug, Deserialize, Serialize)]
 struct BillaParentCategory {
-    key: String,
+    key: Option<String>,
     name: String,
     slug: String,
     #[serde(rename = "orderHint")]
-    order_hint: String,
+    order_hint: Option<String>,
 }
 
 /// Enumeration of the different badges used in the BILLA Online Shop.
@@ -271,14 +275,21 @@ struct BillaFacetRange {
     count: usize,
     #[serde(rename = "labelSymbol")]
     label_symbol: String,
-    min: usize,
-    max: usize,
+    min: f64,
+    max: f64,
+}
+
+#[derive(ValueEnum, Copy, Clone, PartialEq, Eq)]
+pub enum FetchSourceType {
+    All,
+    Billa,
+    HeissePreise,
 }
 
 pub async fn fetch_billa() -> Result<BillaSearchResponse, reqwest::Error> {
     let client = Client::new();
     let response = client
-        .get("https://shop.billa.at/api/products/search/*?page=0&pageSize=50&countryOfOrigin=&storeId=00-10")
+        .get(BILLA_API_URL)
         .send()
         .await?
         .json::<BillaSearchResponse>()

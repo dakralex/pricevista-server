@@ -1,6 +1,6 @@
 use clap::{Args, Parser, Subcommand};
-use pricevista::fetcher::fetch_billa;
-use pricevista::importer::{ImportMarketType, ImportSourceType};
+use pricevista::fetcher::{fetch_billa, FetchSourceType};
+use pricevista::importer::ImportSourceType;
 
 #[tokio::main]
 async fn main() {
@@ -10,7 +10,8 @@ async fn main() {
     match args.command {
         Commands::Fetch(_) => {
             let response = fetch_billa();
-            println!("{:?}", response.await?)
+
+            println!("{:?}", response.await.unwrap());
         }
         _ => todo!("This argument has not been implemented yet."),
     };
@@ -41,11 +42,12 @@ struct InitArgs {}
 struct ImportArgs {
     #[arg(long, help = "Specify the source of the import file")]
     source: ImportSourceType,
-    #[arg(long, help = "Specify the market to import for")]
-    market: ImportMarketType,
     #[arg(required = true)]
     files: Vec<std::path::PathBuf>,
 }
 
 #[derive(Args)]
-struct FetchArgs {}
+struct FetchArgs {
+    #[arg(long, help = "Specify the source to fetch from")]
+    source: FetchSourceType,
+}

@@ -1,4 +1,4 @@
-mod double_as_string {
+pub mod double_as_string {
     use serde::de::Error;
     use serde::{Deserialize, Deserializer, Serializer};
     use std::str::FromStr;

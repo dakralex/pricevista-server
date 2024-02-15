@@ -11,85 +11,85 @@ pub struct MarkantAttributes {
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct MarkantData {
-    //    additional_food_info: Option<MpreisAdditionalFoodInfo>,
-    //    additional_information: Option<MpreisAdditionalInfo>,
-    //    additive: Option<MpreisAdditiveInfo>,
-    //    alcohol_information: Option<MpreisAlcoholInfo>,
-    //    allergen: Option<MpreisAllergenInfo>,
+    //    additional_food_info: Option<AdditionalFoodInfo>,
+    //    additional_information: Option<AdditionalInfo>,
+    //    additive: Option<AdditiveInfo>,
+    //    alcohol_information: Option<AlcoholInfo>,
+    //    allergen: Option<AllergenInfo>,
     //    allergen_types: Option<Vec<String>>,
-    //    animal_feed_additive_statement: Option<MpreisAnimalFeedAdditiveInfo>,
-    //    animal_feed_composition_statement: Option<MpreisAnimalFeedCompositionInfo>,
-    //    animal_feed_constituents_statement: Option<MpreisAnimalFeedConsituentsInfo>,
-    //    animal_feeding: Option<MpreisAnimalFeeding>,
-    //    animal_feeding_instructions: Option<MpreisAnimalFeedingInstructions>,
-    //    battery: Option<MpreisBatteryInfo>,
-    //    cheese: Option<MpreisCheeseInfo>,
-    //    consumer: Option<MpreisConsumerInfo>,
-    //    contact_information: Option<MpreisContactInfo>,
-    //    description: Option<MpreisDescription>,
-    //    egg: Option<MpreisEggInfo>,
-    //    fish: Option<MpreisFishInfo>,
-    //    ghs_information: Option<MpreisGhsInfo>,
+    //    animal_feed_additive_statement: Option<AnimalFeedAdditiveInfo>,
+    //    animal_feed_composition_statement: Option<AnimalFeedCompositionInfo>,
+    //    animal_feed_constituents_statement: Option<AnimalFeedConsituentsInfo>,
+    //    animal_feeding: Option<AnimalFeeding>,
+    //    animal_feeding_instructions: Option<AnimalFeedingInstructions>,
+    //    battery: Option<BatteryInfo>,
+    //    cheese: Option<CheeseInfo>,
+    //    consumer: Option<ConsumerInfo>,
+    //    contact_information: Option<ContactInfo>,
+    //    description: Option<Description>,
+    //    egg: Option<EggInfo>,
+    //    fish: Option<FishInfo>,
+    //    ghs_information: Option<GhsInfo>,
     gtin: Option<String>,
-    //    identification: Option<MpreisIdentification>,
-    //    ingredients: Option<MpreisIngredrients>,
+    //    identification: Option<Identification>,
+    //    ingredients: Option<Ingredrients>,
     last_update_timestamp: Option<String>,
-    //    lifespan: Option<MpreisLifespanInfo>,
-    measurement: Option<MpreisMeasurementInfo>,
-    //    meat: Option<MpreisMeatInfo>,
-    //    mpreis_trade_item: Option<MpreisTradeItem>,
-    //    near_food: Option<MpreisNearFoodInfo>,
-    //    nutrient: Option<MpreisNutrientInfo>,
-    //    nutrition: Option<MpreisNutritionInfo>,
-    //    organic_information: Option<MpreisOrganicInfo>,
-    //    origin: Option<MpreisOriginInfo>,
-    //    packaging_information: Option<MpreisPackagingInfo>,
+    //    lifespan: Option<LifespanInfo>,
+    measurement: Option<MeasurementInfo>,
+    //    meat: Option<MeatInfo>,
+    //    mpreis_trade_item: Option<TradeItem>,
+    //    near_food: Option<NearFoodInfo>,
+    //    nutrient: Option<NutrientInfo>,
+    //    nutrition: Option<NutritionInfo>,
+    //    organic_information: Option<OrganicInfo>,
+    //    origin: Option<OriginInfo>,
+    //    packaging_information: Option<PackagingInfo>,
     packaging_labels_accreditation: Option<Vec<String>>,
-    //    packaging_marking: Option<MpreisPackagingMarking>,
-    preparation: Option<MpreisPreparationInfo>,
-    temperature_information: Option<MpreisTemperatureInfo>,
+    //    packaging_marking: Option<PackagingMarking>,
+    preparation: Option<PreparationInfo>,
+    temperature_information: Option<TemperatureInfo>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
-struct MpreisMeasurementInfo {
+struct MeasurementInfo {
     drained_weight: Option<f64>,
     drained_weight_uom: Option<String>,
     gross_weight: Option<f64>,
     gross_weight_uom: Option<String>,
-    measurement_net_content: Option<HashMap<u16, MpreisMeasurementNetContent>>,
-    net_content_statement: Option<HashMap<u16, MpreisNetContentInfo>>,
+    measurement_net_content: Option<HashMap<u16, MeasurementNetContent>>,
+    net_content_statement: Option<HashMap<u16, NetContentInfo>>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
-struct MpreisMeasurementNetContent {
+struct MeasurementNetContent {
     net_content: Option<f32>,
     net_content_uom: Option<String>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
-struct MpreisNetContentInfo {
+struct NetContentInfo {
     net_content_statement: Option<String>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
-struct MpreisPreparationInfo {
-    preparation_instruction: Option<Vec<MpreisPreparationInstruction>>,
+struct PreparationInfo {
+    preparation_instruction: Option<Vec<PreparationInstruction>>,
     preparation_type: Option<String>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
-struct MpreisPreparationInstruction {
+struct PreparationInstruction {
     preparation_instruct: Option<String>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
-struct MpreisTemperatureInfo {
+struct TemperatureInfo {
     storage_handling_max: Option<f32>,
     storage_handling_max_uom: Option<String>,
     storage_handling_min: Option<f32>,

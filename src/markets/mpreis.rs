@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize};
 
 pub type MpreisBrowseResponse = AlgoliaBrowseResponse<MpreisProduct>;
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Default, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct MpreisProduct {
     /// Whether the product is in stock.
@@ -57,7 +57,7 @@ pub struct MpreisProduct {
     localized_name: Option<MpreisLocalizedString>,
 
     /// A lot of metadata and attribute mixins, describing the product more clearly.
-    mixins: MpreisMixin,
+    mixins: Option<MpreisMixin>,
 
     /// The list of names for the product.
     ///
@@ -124,10 +124,10 @@ struct MpreisLocalizedString {
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct MpreisMixin {
-    markant_attributes: Option<MarkantAttributes>,
-    mpreis_attributes: MpreisAttributes,
-    product_custom_attributes: MpreisCustomAttributes,
-    wine_attributes: Option<MpreisWineAttributes>,
+    // markant_attributes: Option<MarkantAttributes>,
+    // mpreis_attributes: MpreisAttributes,
+    // product_custom_attributes: MpreisCustomAttributes,
+    // wine_attributes: Option<MpreisWineAttributes>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]

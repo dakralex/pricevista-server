@@ -16,7 +16,7 @@ async fn main() {
                 }
                 FetchSourceType::Mpreis => {
                     let response = fetch_mpreis();
-                    println!("{:?}", response.await.unwrap());
+                    response.await.unwrap();
                 }
                 FetchSourceType::Spar => {
                     let response = fetch_spar();

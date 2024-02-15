@@ -7,25 +7,41 @@ pub type MpreisBrowseResponse = AlgoliaBrowseResponse<MpreisProduct>;
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct MpreisProduct {
-    /// Whether the product is available.
+    /// Whether the product is in stock.
     available: bool,
+
+    /// The list of categories in reverse hierarchical order.
+    ///
+    /// This list should always contain the `"ProductRoot"` as the last element.
     categories: Option<Vec<String>>,
+
+    /// Whether the category is missing.
     categories_missing: bool,
+
+    /// The recursive categories structure with more category metadata.
     category: Option<MpreisCategory>,
     #[serde(rename = "category_ids")]
     category_ids: Option<Vec<String>>,
     #[serde(rename = "category_levels")]
     category_levels: Option<MpreisCategoryLevels>,
 
-    /// Internal identifier of the product.
+    /// The internal identifier of the product.
     code: String,
 
-    /// Array of descriptions for the product.
+    /// The list of descriptions for the product.
+    ///
+    /// This field usually contains only one item, which is often the same as
+    /// the name. It should not be used or relied on. For a more concise
+    /// description use one in the [MpreisCustomAttributes].
     description: Vec<String>,
     distribution_channel: Vec<String>,
     fees: Option<Vec<MpreisFeeInfo>>,
 
-    /// Absolute URL to a JPEG image of the product.
+    /// The absolute URL to a JPEG image of the product.
+    ///
+    /// If this element is not present, the fallback
+    /// `"https://www.mpreis.at/assets/noImage_detail-5sxJ3bpG.png"` should be
+    /// used.
     image: Option<String>,
 
     /// Whether the `image` field is defined.
@@ -43,11 +59,13 @@ pub struct MpreisProduct {
     /// A lot of metadata and attribute mixins, describing the product more clearly.
     mixins: MpreisMixin,
 
-    /// Array of (inconsistent) names for the product.
+    /// The list of names for the product.
     ///
-    /// This field's elements seem to be capped at 40 characters and are quite
-    /// inconsistent as they sometimes contain the brand name and sometimes
-    /// not.
+    /// This field usually contains only one item and the length of the strings
+    /// seems to be capped at 40 characters. It is quite unclear when the brand
+    /// name is in the name or not. The brand name is also sometimes abbreviated.
+    /// It should not be used or relied on. For a more concise name use one in
+    /// the [MpreisAttributes].
     name: Vec<String>,
 
     /// Object identifier for the product.
@@ -56,6 +74,10 @@ pub struct MpreisProduct {
     /// followed by the `code` of the product.
     #[serde(rename = "objectID")]
     object_id: String,
+
+    /// The list of prices for the product.
+    ///
+    /// The field does only contain one element.
     prices: Vec<MpreisPriceInfo>,
 
     /// Internal tags to describe type and state.
@@ -298,38 +320,115 @@ struct MpreisWineAttributes {
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct MpreisPriceInfo {
+    /// The base price of the product, which is the price per unit.
     base_price: MpreisPrice,
+
+    /// The ISO 4217 currency code the price is valued in.
     currency: String,
+
+    /// The custom attributes of the price information.
     custom_attributes: MpreisPriceAttributes,
+
+    /// The effective price the product is priced at now.
     effective_amount: f64,
+
+    /// The measurement unit of the original and effective amount.
     measurement_unit: MpreisMeasurementUnit,
-    natural_discounts: Option<Vec<MpreisNaturalDiscount>>,
+
+    /// The list of BOGO discounts that are available on this product's price.
+    natural_discounts: Option<Vec<MpreisBogoDiscount>>,
+
+    /// The standard price the product usually is priced at.
     original_amount: f64,
+
+    /// The price to display at the web page.
+    ///
+    /// This value seems to be sometimes a copy of the prices in [MpreisPriceInfo]
+    /// but sometimes deviates from that, especially for products that are
+    /// currently unavailable. It should **not be used**.
     presentation_price: MpreisPrice,
+
+    /// The 24 (alphanumeric) character string id.
     price_id: String,
+
+    /// The code of the site for the price (which is `8450` in case of MPreis).
     site_code: String,
+
+    /// The three (alphanumeric) character type code.
+    ///
+    /// This value seems to be enumerated with the values:
+    /// `"V1NO"`, `"V1HO"`, `"V3BP"`, `"V1BE"`, `"V4AB"`, `"V3SO"`, `"V1SS"`
     #[serde(rename = "type")]
     price_type: Option<String>,
+
+    /// The information about the wholesale discount, if one is applicable.
     wholesale: Option<MpreisWholesale>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct MpreisPrice {
+    /// The effective price the product is priced at now.
     effective_amount: f64,
+
+    /// The measurement unit of the original and effective amount.
     measurement_unit: MpreisMeasurementUnit,
+
+    /// The standard price the product usually is priced at.
     original_amount: f64,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct MpreisPriceAttributes {
+    /// THe description of the promotion, which always equals the name.
     promotion_description: Option<String>,
+
+    /// The 12 character string identifier that always starts with `"MPR-"`.
     promotion_id: Option<String>,
+
+    /// The name of the promotion, which always equals the description.
+    ///
+    /// This value seems to be capped at 25 characters, similar to the receipts
+    /// you receive at the shop.
     promotion_name: Option<String>,
+
+    /// The priority of the promotion.
+    ///
+    /// It is unclear what it means, but it is either `100.0` or `102.0`.
     promotion_priority: Option<String>,
     promotion_reference: Option<String>,
-    promotion_type: String,
+
+    /// The type of the promotion for the product price.
+    promotion_type: MpreisPromotionType,
+}
+
+#[derive(Debug, Deserialize, Serialize)]
+#[serde(rename_all = "SCREAMING_SNAKE_CASE")]
+enum MpreisPromotionType {
+    /// Wholesole discount promotion.
+    ///
+    /// This promotion type is characterized with a promotion that is valid if
+    /// the customer buys a specific minimum amount of the product.
+    Ab,
+
+    /// Generic discount promotion.
+    ///
+    /// This promotion type represents any discount which lowers the price of
+    /// the product without any special conditions.
+    Dis,
+
+    /// BOGO (buy-one-get-one-free) discount promotion.
+    ///
+    /// This promotion type is not limited to "1+1", but can consist of an
+    /// arbitrary combination which needs to be calculated with [MpreisBogoDiscount].
+    Pak,
+
+    /// No discount promotion.
+    ///
+    /// This promotion type is just a fallback if the product doesn't have any
+    /// discounts and is at its regular price.
+    RegularPrice,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -339,12 +438,28 @@ struct MpreisMeasurementUnit {
     unit_code: String,
 }
 
+/// This is the representation of a BOGO discount from the Mpreis API.
+///
+/// A BOGO discount is a buy-one-get-one-free discount, which is presented as
+/// a badge with something like "1+1 gratis", "2+1 gratis" to suggest the
+/// customer that they get something free from buying this now.
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
-struct MpreisNaturalDiscount {
+struct MpreisBogoDiscount {
+    /// The effective date range while this discount lasts.
     date_range: Option<MpreisDateRange>,
+
+    /// The amount of items that are represented as "free".
+    ///
+    /// For example, if the badge says "3+1 gratis", then this value is 1.
     discount_quantity: Option<f32>,
+
+    /// The whole amount of items that need to be bought.
+    ///
+    /// For example, if the badge says "3+1 gratis", then this value is 4.
     for_quantity: Option<f32>,
+
+    /// The 12 character string identifier that always starts with `"MPR-"`.
     promotion_id: Option<String>,
     reference: Option<String>,
 }
@@ -356,8 +471,10 @@ struct MpreisDateRange {
     start_date: Option<String>,
 }
 
+/// This is the representation for a wholesale from the Mpreis API.
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct MpreisWholesale {
+    /// The minimum amount that needs to be bought so that the discount is applied.
     min_quantity: f32,
 }

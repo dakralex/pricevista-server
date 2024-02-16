@@ -124,10 +124,10 @@ struct MpreisLocalizedString {
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct MpreisMixin {
-    // markant_attributes: Option<MarkantAttributes>,
-    // mpreis_attributes: MpreisAttributes,
-    // product_custom_attributes: MpreisCustomAttributes,
-    // wine_attributes: Option<MpreisWineAttributes>,
+    markant_attributes: Option<MarkantAttributes>,
+    mpreis_attributes: MpreisAttributes,
+    product_custom_attributes: MpreisCustomAttributes,
+    wine_attributes: Option<MpreisWineAttributes>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]

@@ -1,6 +1,7 @@
 use clap::{Parser, Subcommand};
 use pricevista::fetcher::{fetch_billa, fetch_mpreis, fetch_spar, FetchSourceType};
 use pricevista::importer::ImportSourceType;
+use pricevista::markets::hofer::fetch_hofer;
 
 #[tokio::main]
 async fn main() {
@@ -13,6 +14,9 @@ async fn main() {
                 FetchSourceType::Billa => {
                     let response = fetch_billa();
                     println!("{:?}", response.await.unwrap());
+                }
+                FetchSourceType::Hofer => {
+                    fetch_hofer().await;
                 }
                 FetchSourceType::Mpreis => {
                     let response = fetch_mpreis();

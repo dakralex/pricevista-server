@@ -16,6 +16,7 @@ pub enum FetchSourceType {
     All,
     Billa,
     HeissePreise,
+    Hofer,
     Mpreis,
     Spar,
 }

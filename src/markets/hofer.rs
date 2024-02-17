@@ -1,3 +1,5 @@
+use crate::markets::roksh;
+use reqwest::Client;
 use serde::{Deserialize, Serialize};
 use serde_json::Number;
 
@@ -48,7 +50,7 @@ pub struct HoferProduct {
     product_media_list: Vec<HoferProductMediaItem>,
     product_name: String,
     product_provider: Vec<HoferProductProvider>,
-    #[serde(rename = productProviderID)]
+    #[serde(rename = "productProviderID")]
     product_provider_id: u32,
     provider_available: bool,
     provider_deposit_product_dto_list: Vec<String>,
@@ -167,4 +169,21 @@ struct HoferProductProvider {
     unit: Option<String>,
     unit_price: String,
     unit_price_int: u32,
+}
+
+pub async fn fetch_hofer() {
+    let client = Client::new();
+
+    let bearer = roksh::get_session_bearer(&client, "hofer")
+        .await
+        .unwrap()
+        .unwrap();
+    let categories = roksh::get_full_category_list(&client, &bearer)
+        .await
+        .unwrap();
+    let products = roksh::get_category_product_list(&client, &bearer)
+        .await
+        .unwrap();
+
+    println!("{}", products)
 }

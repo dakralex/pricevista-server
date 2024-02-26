@@ -13,8 +13,8 @@ pub enum Error {
 impl Display for Error {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         match self {
-            Error::Io(e) => e.fmt(f),
-            Error::Reqwest(e) => e.fmt(f),
+            Error::Io(e) => Display::fmt(e, f),
+            Error::Reqwest(e) => Display::fmt(e, f),
         }
     }
 }
@@ -36,6 +36,6 @@ impl From<io::Error> for Error {
 
 impl From<reqwest::Error> for Error {
     fn from(e: reqwest::Error) -> Self {
-        Self::Io(e)
+        Self::Reqwest(e)
     }
 }

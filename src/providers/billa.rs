@@ -1,37 +1,60 @@
 use crate::parser;
-use crate::providers::Fetch;
+use crate::providers::{Fetch, Merge};
 use reqwest::Client;
 use serde::Deserialize;
+use std::fmt::format;
 
 pub struct BillaShopApi;
 
-const BILLA_API_URL: &str = "/products/search/*?storeId=00-10";
+impl BillaShopApi {
+    async fn request(client: &Client, page: usize) -> crate::error::Result<BillaSearchResponse> {
+        let url = format!("{}/products", Self::API_BASE_URL);
+        let page = format!("{}", page);
+
+        let request = client.get(&url).query(&[
+            ("page", page.as_str()),
+            ("pageSize", "500"),
+            ("storeId", "00-10"),
+        ]);
+        let response = request.send().await?;
+        Ok(response.json::<BillaSearchResponse>().await?)
+    }
+}
 
 impl Fetch for BillaShopApi {
     type ResponseImpl = BillaSearchResponse;
     const API_BASE_URL: &'static str = "https://shop.billa.at/api";
 
     async fn fetch(client: &Client) -> crate::error::Result<Self::ResponseImpl> {
-        let url = format!("{}/products/search/*", Self::API_BASE_URL);
-        let response = client
-            .get(&url)
-            .query(&[("storeId", "00-10"), ("pageSize", "1000")])
-            .send()
-            .await?;
-        let body = response.text().await?;
-        let data = serde_json::from_str(&body).unwrap();
-        Ok(data)
+        let mut page = 0;
+        let mut total = Self::request(&client, page).await?;
+
+        while &total.total > &0 {
+            page += 1;
+            total.merge(Self::request(&client, page).await?);
+        }
+
+        Ok(total)
     }
 }
 
 #[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct BillaSearchResponse {
-    query_id: String,
     count: usize,
     total: usize,
     results: Vec<BillaProduct>,
     facets: Vec<BillaResultFacet>,
+}
+
+impl Merge for BillaSearchResponse {
+    fn merge(&mut self, rhs: Self) {
+        self.count += rhs.count;
+        assert_eq!(self.total, rhs.total);
+        self.results.extend(rhs.results);
+        // TODO Make facets a HashSet or reimplement Extend/Trait on it
+        self.facets.extend(rhs.facets);
+    }
 }
 
 #[derive(Debug, Deserialize)]

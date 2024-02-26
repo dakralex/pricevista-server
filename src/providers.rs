@@ -11,7 +11,6 @@ use crate::error::Result;
 use clap::ValueEnum;
 use reqwest::Client;
 use std::future::Future;
-use std::io::Write;
 
 #[derive(ValueEnum, Copy, Clone, PartialEq, Eq, Debug)]
 pub enum FetchSource {

@@ -92,8 +92,8 @@ pub async fn get_category_product_list(client: &Client, bearer: &str) -> reqwest
         .bearer_auth(bearer)
         .query(&[
             ("progId", ""),
-            ("firstLoadProductListResultNum", 4),
-            ("listResultProductNum", 24),
+            ("firstLoadProductListResultNum", "4"),
+            ("listResultProductNum", "24"),
         ])
         .send()
         .await?;

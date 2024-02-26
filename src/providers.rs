@@ -1,12 +1,17 @@
+mod algolia;
 pub mod billa;
-pub mod mpreis;
-pub mod spar;
+mod factfinder;
 pub mod hofer;
+mod markant;
+pub mod mpreis;
+mod roksh;
+pub mod spar;
 
-use std::io::Write;
-use reqwest::Client;
-use clap::ValueEnum;
 use crate::error::Result;
+use clap::ValueEnum;
+use reqwest::Client;
+use std::future::Future;
+use std::io::Write;
 
 #[derive(ValueEnum, Copy, Clone, PartialEq, Eq, Debug)]
 pub enum FetchSource {
@@ -16,8 +21,13 @@ pub enum FetchSource {
     Spar,
 }
 
-pub trait Fetchable {
+pub trait Fetch {
     type ResponseImpl;
+    const API_BASE_URL: &'static str;
 
-    async fn fetch(client: &Client) -> Result<Self::ResponseImpl>;
+    fn fetch(client: &Client) -> impl Future<Output = Result<Self::ResponseImpl>>;
+}
+
+pub trait Merge<Other = Self> {
+    fn merge(&mut self, rhs: Other);
 }

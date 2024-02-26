@@ -1,5 +1,5 @@
+use crate::providers::Merge;
 use serde::{Deserialize, Serialize};
-use std::ops::AddAssign;
 
 #[derive(Debug, Default, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
@@ -14,10 +14,10 @@ pub struct AlgoliaBrowseResponse<T> {
     pub(crate) cursor: Option<String>,
 }
 
-impl<'a, T> AddAssign<&'a mut AlgoliaBrowseResponse<T>> for AlgoliaBrowseResponse<T> {
-    fn add_assign(&mut self, rhs: &'a mut Self) {
+impl<T> Merge for AlgoliaBrowseResponse<T> {
+    fn merge(&mut self, rhs: Self) {
+        self.hits.extend(rhs.hits);
         self.processing_time_ms += rhs.processing_time_ms;
-        self.cursor = rhs.cursor.take();
-        self.hits.append(&mut rhs.hits);
+        self.cursor = rhs.cursor;
     }
 }

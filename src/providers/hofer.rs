@@ -1,9 +1,26 @@
-use crate::markets::roksh;
+use crate::providers::roksh;
 use reqwest::Client;
-use serde::{Deserialize, Serialize};
+use serde::Deserialize;
 use serde_json::Number;
 
-#[derive(Debug, Deserialize, Serialize)]
+pub async fn fetch_hofer() {
+    let client = Client::new();
+
+    let bearer = roksh::get_session_bearer(&client, "hofer")
+        .await
+        .unwrap()
+        .unwrap();
+    let categories = roksh::get_full_category_list(&client, &bearer)
+        .await
+        .unwrap();
+    let products = roksh::get_category_product_list(&client, &bearer)
+        .await
+        .unwrap();
+
+    println!("{}", products)
+}
+
+#[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct HoferProduct {
     available: bool,
@@ -74,7 +91,7 @@ pub struct HoferProduct {
     unit_price: f64,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase")]
 struct HoferCategory {
     #[serde(rename = "CategoryProviderImage")]
@@ -97,7 +114,7 @@ struct HoferCategory {
     url: String,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase")]
 struct HoferIcon {
     #[serde(rename = "blobURL")]
@@ -105,7 +122,7 @@ struct HoferIcon {
     icon_tooltip: Option<String>,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase")]
 struct HoferProductDetails {
     alcohol_str: Option<String>,
@@ -129,14 +146,14 @@ struct HoferProductDetails {
     textual_nutrition: Option<String>,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase")]
 struct HoferProductMediaItem {
     #[serde(rename = "MediaUrlL")]
     media_url_large: Option<String>,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase")]
 struct HoferProductProvider {
     available: bool,
@@ -169,21 +186,4 @@ struct HoferProductProvider {
     unit: Option<String>,
     unit_price: String,
     unit_price_int: u32,
-}
-
-pub async fn fetch_hofer() {
-    let client = Client::new();
-
-    let bearer = roksh::get_session_bearer(&client, "hofer")
-        .await
-        .unwrap()
-        .unwrap();
-    let categories = roksh::get_full_category_list(&client, &bearer)
-        .await
-        .unwrap();
-    let products = roksh::get_category_product_list(&client, &bearer)
-        .await
-        .unwrap();
-
-    println!("{}", products)
 }

@@ -1,7 +1,6 @@
 use clap::{Parser, Subcommand};
-use pricevista::fetcher::{fetch_billa, fetch_mpreis, fetch_spar, FetchSourceType};
 use pricevista::importer::ImportSourceType;
-use pricevista::markets::hofer::fetch_hofer;
+use pricevista::providers::FetchSource;
 
 #[tokio::main]
 async fn main() {
@@ -9,26 +8,7 @@ async fn main() {
     let args = ManagerCli::parse();
 
     match args.command {
-        Commands::Fetch { source, .. } => {
-            match source {
-                FetchSourceType::Billa => {
-                    let response = fetch_billa();
-                    println!("{:?}", response.await.unwrap());
-                }
-                FetchSourceType::Hofer => {
-                    fetch_hofer().await;
-                }
-                FetchSourceType::Mpreis => {
-                    let response = fetch_mpreis();
-                    response.await.unwrap();
-                }
-                FetchSourceType::Spar => {
-                    let response = fetch_spar();
-                    println!("{:?}", response.await.unwrap());
-                }
-                _ => todo!("This fetch type has not been implemented yet."),
-            };
-        }
+        Commands::Fetch { source, .. } => {}
         _ => todo!("This argument has not been implemented yet."),
     };
 }
@@ -55,6 +35,6 @@ enum Commands {
     /// Update data through fetching API endpoints
     Fetch {
         #[arg(long, help = "Specify the source to fetch from")]
-        source: FetchSourceType,
+        source: FetchSource,
     },
 }
